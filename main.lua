@@ -1,16 +1,3 @@
-_G.walkAnimId = "88806903330819"
-_G.idleAnimId = "108138386572761"
-_G.jumpAnimId = "76076309961033"
-_G.fallAnimId = "76076309961033"
-
-_G.animBinds = {
-    [Enum.KeyCode.R] = {
-        id = "89364019904363",
-        loop = true,
-        toggle = true
-    }
-}
-
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
